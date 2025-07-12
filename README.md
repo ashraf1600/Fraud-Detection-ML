@@ -1,3 +1,9 @@
+<img width="1330" height="583" alt="image" src="https://github.com/user-attachments/assets/dc26357a-e98f-4d40-8a4a-c7c0ef33af2a" />
+![Uploading image.png…]()
+
+
+
+
 # 🛒 E-commerce Fraud Detection Project
 
 Welcome to the **E-commerce Fraud Detection** repository!  
