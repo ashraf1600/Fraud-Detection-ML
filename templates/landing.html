@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fraud Detection ML - Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav class="navbar" style="background: linear-gradient(90deg, #232526 0%, #1e90ff 100%); padding: 18px 0; text-align: center; color: #fff; font-size: 1.5rem; font-weight: 700; letter-spacing: 2px;">
+        Fraud Detection ML
+        <a href="/" style="margin-left: 40px; color: #f9d923; text-decoration: none; font-size: 1.1rem;">Home</a>
+        <a href="/predict" style="margin-left: 30px; color: #17e9e0; text-decoration: none; font-size: 1.1rem;">Predict Fraud</a>
+    </nav>
+    <div class="container">
+        <h1>Welcome to Fraud Detection ML App </h1>
+        <h2>About This Website</h2>
+        <p style="font-size: 1.2rem; color: #eee; margin-bottom: 30px; text-align: center;">This web application uses advanced machine learning models to detect fraudulent transactions in real time. Simply click on <b>Predict Fraud</b> in the navigation bar to access the prediction tool. Our system is designed for accuracy, security, and ease of use, helping businesses and individuals stay protected against financial fraud.</p>
+        <ul style="font-size: 1.1rem; color: #f9d923; margin-bottom: 30px;">
+            <li>Fast and reliable fraud prediction</li>
+            <li>Easy-to-use interface</li>
+            <li>Secure and private</li>
+            <li>Powered by state-of-the-art ML models</li>
+        </ul>
+        <div style="text-align:center; margin-top:40px;">
+            <a href="/predict" class="btn-primary" style="display:inline-block; max-width:300px;">Go to Prediction</a>
+        </div>
+    </div>
+   <footer class="footer">
+        <p>&copy; 2024 E-commerce Fraud Detection App | Developed by <a href="https://github.com/ashraf1600">Ashraful Islam</a></p>
+    </footer>
+</body>
+</html>
